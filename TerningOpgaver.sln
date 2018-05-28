@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Static Methods", "Static Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestPractice", "BestPractice\BestPractice.csproj", "{7B7EC6C9-5472-4D57-B682-3EE77A26853E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniERP", "MiniERP\MiniERP.csproj", "{C7503349-114A-465A-AA4E-FB0F6F391D0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpelKortSpil", "SimpelKortSpil\SimpelKortSpil.csproj", "{34CC70FA-347C-42D3-84EF-0C6E9909B14E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{7B7EC6C9-5472-4D57-B682-3EE77A26853E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B7EC6C9-5472-4D57-B682-3EE77A26853E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B7EC6C9-5472-4D57-B682-3EE77A26853E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7503349-114A-465A-AA4E-FB0F6F391D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7503349-114A-465A-AA4E-FB0F6F391D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7503349-114A-465A-AA4E-FB0F6F391D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7503349-114A-465A-AA4E-FB0F6F391D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34CC70FA-347C-42D3-84EF-0C6E9909B14E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34CC70FA-347C-42D3-84EF-0C6E9909B14E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34CC70FA-347C-42D3-84EF-0C6E9909B14E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34CC70FA-347C-42D3-84EF-0C6E9909B14E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
