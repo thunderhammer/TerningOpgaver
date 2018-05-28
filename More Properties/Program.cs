@@ -8,7 +8,7 @@ namespace More_Properties
 {
     class Person
     {
-        public string Fornavn { get; set; }
+        public string Fornavn { get; set; } // Sets the string with automatic methods, easy way. 
 
         private string efternavn;
         public string Efternavn
