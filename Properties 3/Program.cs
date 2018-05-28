@@ -24,9 +24,9 @@ namespace Properties_3
         {
             return ((Højde * Grundlinie)/2);
         }*/ /* As a method call */
-        public int Areal /* As a property */
+        public double Areal /* As a property */
         {
-            get { return ((Højde * Grundlinie) / 2); }
+            get { return ((Højde * Grundlinie) * 0.5); }
         }
 
     }
