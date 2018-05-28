@@ -47,9 +47,9 @@ namespace Properties
 
             }
 
-            public void PrisMedMoms()
+            public double PrisMedMoms()
             {
-
+                return pris * 1.25;
             }
 
         }
@@ -60,13 +60,13 @@ namespace Properties
             Vare v1 = new Vare();
             v1.PrisMedMoms("Bil", 240000);
             Console.WriteLine(v1.Navn);
-            Console.WriteLine(v1.Pris);
-            
+            Console.WriteLine(v1.PrisMedMoms());
+                        
 
             Vare v2 = new Vare("Trabant", 2400);
             v2.PrisMedMoms();
             Console.WriteLine(v2.Navn);
-            Console.WriteLine(v2.Pris);
+            Console.WriteLine(v2.PrisMedMoms());
         }
     }
 }
