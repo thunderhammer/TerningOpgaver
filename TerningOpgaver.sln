@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terning1", "Terning1\Ternin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Properties", "Properties\Properties.csproj", "{F8B4D65C-C317-4F24-B1EA-6E21A817336A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "More Properties", "More Properties\More Properties.csproj", "{A1D0294A-489B-4A31-A12E-1B6036798AC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F8B4D65C-C317-4F24-B1EA-6E21A817336A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8B4D65C-C317-4F24-B1EA-6E21A817336A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8B4D65C-C317-4F24-B1EA-6E21A817336A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D0294A-489B-4A31-A12E-1B6036798AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D0294A-489B-4A31-A12E-1B6036798AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D0294A-489B-4A31-A12E-1B6036798AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D0294A-489B-4A31-A12E-1B6036798AC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
