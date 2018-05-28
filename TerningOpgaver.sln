@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Properties 3", "Properties 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Static Methods", "Static Methods\Static Methods.csproj", "{1FF71DFB-CD65-49AB-84AB-520346E8F0DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestPractice", "BestPractice\BestPractice.csproj", "{7B7EC6C9-5472-4D57-B682-3EE77A26853E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1FF71DFB-CD65-49AB-84AB-520346E8F0DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FF71DFB-CD65-49AB-84AB-520346E8F0DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FF71DFB-CD65-49AB-84AB-520346E8F0DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B7EC6C9-5472-4D57-B682-3EE77A26853E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B7EC6C9-5472-4D57-B682-3EE77A26853E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B7EC6C9-5472-4D57-B682-3EE77A26853E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B7EC6C9-5472-4D57-B682-3EE77A26853E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
