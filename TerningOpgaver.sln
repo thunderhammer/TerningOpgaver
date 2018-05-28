@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terning1", "Terning1\Terning1.csproj", "{66CBDA65-9A69-4124-BD26-01C9A1099142}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Properties", "Properties\Properties.csproj", "{F8B4D65C-C317-4F24-B1EA-6E21A817336A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{66CBDA65-9A69-4124-BD26-01C9A1099142}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66CBDA65-9A69-4124-BD26-01C9A1099142}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66CBDA65-9A69-4124-BD26-01C9A1099142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B4D65C-C317-4F24-B1EA-6E21A817336A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B4D65C-C317-4F24-B1EA-6E21A817336A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B4D65C-C317-4F24-B1EA-6E21A817336A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B4D65C-C317-4F24-B1EA-6E21A817336A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
