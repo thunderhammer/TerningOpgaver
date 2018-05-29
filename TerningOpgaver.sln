@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arv", "Arv\Arv.csproj", "{6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LudoTerningOpgave", "LudoTerningOpgave\LudoTerningOpgave.csproj", "{86EEB2BC-6BE8-4EE1-A163-B4B59BFEA038}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTestInheritance", "BasicTestInheritance\BasicTestInheritance.csproj", "{33CF6A55-92E7-4319-8F69-F88C5BA8975F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{86EEB2BC-6BE8-4EE1-A163-B4B59BFEA038}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86EEB2BC-6BE8-4EE1-A163-B4B59BFEA038}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86EEB2BC-6BE8-4EE1-A163-B4B59BFEA038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33CF6A55-92E7-4319-8F69-F88C5BA8975F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33CF6A55-92E7-4319-8F69-F88C5BA8975F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33CF6A55-92E7-4319-8F69-F88C5BA8975F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33CF6A55-92E7-4319-8F69-F88C5BA8975F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
