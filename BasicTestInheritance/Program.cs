@@ -18,13 +18,15 @@ namespace BasicTestInheritance
             b.MetodeB();
             B bb = (B)aa; // Typecasting to access the methods of B
 
+            A[] array = new A[3];
+            array[0] = new A();
+            array[1] = new B();
+            array[2] = new C();
+            foreach (var item in array)
+            {
+                item.
+            }
             
-
-            
-            
-            
-
-
         }
         class A
         {
