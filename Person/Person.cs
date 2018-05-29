@@ -78,4 +78,9 @@ namespace Person
 
         public int Praktikperiode { get; set; }
     }
+
+    class Minr : Random
+    {
+
+    }
 }
