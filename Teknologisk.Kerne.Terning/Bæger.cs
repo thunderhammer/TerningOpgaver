@@ -10,7 +10,7 @@ namespace Teknologisk.Kerne
     {
         private Terning[] terninger;
 
-        public Bæger()
+        public Bæger(int antal)
         {
             terninger = new Kerne.Terning[5];
             for (int i = 0; i < terninger.Length; i++)
@@ -19,6 +19,23 @@ namespace Teknologisk.Kerne
             }
         
         }
+
+        public Bæger() :this(5) // Calls the customer constructor
+        {
+
+        }
+
+        public Bæger(params int[] værdier)
+        {
+            terninger = new Kerne.Terning[værdier.Length];
+            for (int i = 0; i < terninger.Length; i++)
+            {
+                terninger[i] = new Kerne.Terning(værdier[i]);
+            }
+
+        }
+
+
         public string Skriv()
         {
             string tmp = "";

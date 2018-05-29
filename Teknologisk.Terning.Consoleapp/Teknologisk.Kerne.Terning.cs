@@ -23,6 +23,9 @@ namespace Teknologisk.Terning.Consoleapp
             b.Ryst();
             Console.WriteLine(b.Skriv()); // Write on Bæger
 
+            Kerne.Bæger bb = new Kerne.Bæger(1, 2, 3, 4, 5);
+            Console.WriteLine(bb.Skriv()); // Write on Bæger
+
         }
     }
 }
