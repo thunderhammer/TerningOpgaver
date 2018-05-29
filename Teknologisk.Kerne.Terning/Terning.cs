@@ -15,11 +15,24 @@ namespace Teknologisk.Kerne
 
         public Terning(int værdi)
         {
-            this.Værdi = værdi;
+            this.Værdi = 1;
         }
 
 
-        public int Værdi { get; private set; }
+        //public int Værdi { get; private set; }
+        private int værdi;
+
+        public int Værdi
+        {
+            get { return værdi; }
+            set
+            {
+                if (value < 1 || value > 6)
+                    this.værdi = 1;
+                else
+                    this.værdi = value;
+            }
+        }
         private static System.Random rnd = new System.Random();
 
         public void Ryst()
@@ -27,16 +40,13 @@ namespace Teknologisk.Kerne
             this.Værdi = rnd.Next(1, 7);
         }
 
-        public string Skriv()
+        public virtual string Skriv()
         {
             return $"[{this.Værdi}]";
         }
-
-
-
-
     }
 
-    
 
+   
+    
 }
