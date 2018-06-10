@@ -9,7 +9,9 @@ namespace Polymorfi_med_dyr
     abstract class Dyr
     {
         public string Navn { get; set; }
-        static string sti = @"X:\dyrenavne.txt";
+        static string sti = @"D:\Dyrenavne.txt";
+        static Random R = new System.Random();
+
         
 
         public virtual void SigNoget()
@@ -21,19 +23,19 @@ namespace Polymorfi_med_dyr
         {
             int HundEllerKat;
             string[] navne = System.IO.File.ReadAllLines(sti);
-            Random R = new System.Random();
+            
+            int index = R.Next(0,navne.Length);
             HundEllerKat = R.Next(0, 2);
-
-
-
+            
+            
             if (HundEllerKat == 0)
             {
-                return new Hund() { };
+                return new Hund() {Navn = navne[index]};
             }
 
             else
             {
-                return new Kat() { };
+                return new Kat() { Navn = navne[index] };
             }
 
         }
@@ -43,7 +45,7 @@ namespace Polymorfi_med_dyr
         {
             public override void SigNoget()
             {
-                Console.WriteLine("Jeg er en hund og hedder ...");
+                Console.WriteLine("Jeg er en hund og hedder " + Navn);
             }
         }
 
@@ -51,7 +53,7 @@ namespace Polymorfi_med_dyr
         {
             public override void SigNoget()
             {
-                Console.WriteLine("Jeg er en kat og hedder ...");
+                Console.WriteLine("Jeg er en kat og hedder " + Navn + " ...");
             }
         }
 
@@ -63,11 +65,23 @@ namespace Polymorfi_med_dyr
                 Hund h2 = new Hund();
                 Kat k1 = new Kat();
                 Kat k2 = new Kat();
+                Dyr d1 = TilfældigtDyr();
 
                 h1.SigNoget();
                 k1.SigNoget();
                 h2.SigNoget();
                 k2.SigNoget();
+                d1.SigNoget();
+                Dyr[] dyr = new Dyr[20];
+                for (int i = 0; i < 20; i++)
+                {
+                    dyr[i] = Dyr.TilfældigtDyr();
+                }
+
+                foreach (var item in dyr)
+                {
+                    item.SigNoget();
+                }
 
             }
         }
