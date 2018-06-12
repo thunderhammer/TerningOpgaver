@@ -39,7 +39,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fejldhåndtering", "Fejldh�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpelFejlhåndtering", "SimpelFejlhåndtering\SimpelFejlhåndtering.csproj", "{001AE574-5C6B-4A76-B107-EAD5CAB38ABA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewLog", "NewLog\NewLog.csproj", "{9686B2F9-D16A-457B-BA68-31823CEB22A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewLog", "NewLog\NewLog.csproj", "{9686B2F9-D16A-457B-BA68-31823CEB22A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegate", "Delegate\Delegate.csproj", "{B5338691-20C0-4D5B-B83D-DFFBCEAF4C50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{9686B2F9-D16A-457B-BA68-31823CEB22A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9686B2F9-D16A-457B-BA68-31823CEB22A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9686B2F9-D16A-457B-BA68-31823CEB22A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5338691-20C0-4D5B-B83D-DFFBCEAF4C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5338691-20C0-4D5B-B83D-DFFBCEAF4C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5338691-20C0-4D5B-B83D-DFFBCEAF4C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5338691-20C0-4D5B-B83D-DFFBCEAF4C50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
